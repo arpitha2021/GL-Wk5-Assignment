@@ -1,0 +1,17 @@
+Create database Users;
+
+Use Users;
+
+create table Users(
+	
+id int primary key,
+   
+ fname varchar(30),
+    
+lname varchar(30),
+    
+email varchar(50)
+);
+
+
+select * from Users;
